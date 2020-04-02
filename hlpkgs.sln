@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.28307.1022
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "hlpkgs", "hlpkgs\hlpkgs.pyproj", "{85E9B399-2BE9-41D8-BFAF-3ED8B877A3E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44FB96E2-F036-4969-9F5D-7B027FBD79B4}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		setup.py = setup.py
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tests", "tests\tests.pyproj", "{82EBCBE9-1441-4CFA-8B7C-BDE115EC9A46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +22,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{85E9B399-2BE9-41D8-BFAF-3ED8B877A3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85E9B399-2BE9-41D8-BFAF-3ED8B877A3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EBCBE9-1441-4CFA-8B7C-BDE115EC9A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EBCBE9-1441-4CFA-8B7C-BDE115EC9A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

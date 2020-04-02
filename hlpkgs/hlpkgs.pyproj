@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>85e9b399-2be9-41d8-bfaf-3ed8b877a3e9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hlpkgs.py</StartupFile>
+    <StartupFile>__init__.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>hlpkgs</Name>
     <RootNamespace>hlpkgs</RootNamespace>
+    <PublishUrl>../tests</PublishUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="hlpkgs.py" />
+    <Compile Include="cache.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="config.py" />
+    <Compile Include="crypto.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="daemon.py" />
+    <Compile Include="default_init_handlers.py" />
+    <Compile Include="hash.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="http_service.py" />
+    <Compile Include="mongo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="request_args.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snippet.py" />
+    <Compile Include="tracker.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
